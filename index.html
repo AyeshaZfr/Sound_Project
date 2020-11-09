@@ -11,38 +11,68 @@
 
   <!-- Ayesha's Part begin -->
   <div class="landing">
-    <div class="navbar">
+    <header class="v-header container">
+      <div class="fullscreen-video-wrap"><video src="videos/30mins.mp4" autoplay loop muted id="video1"></video></div>
+      <div class="header-overlay">
+        <div class="navbar">
 
-      <!-- <div class="navbar-container">
-          <img class="logo" src="images/nyuad-logo.png" alt="">
+          <div class="navbar_elem">
 
-        </div> -->
+            <div class="left">
+              <li><span onclick="openNav()"><img src="images/menu.png" alt="#" width="30px" style="padding: 10px;"></i></span></li>
+              <li id="heroImgWrapper"><img id="heroImg" src="images/nyuad-logo.png" alt="" height="50px"></li>
+            </div>
 
+            <div class="right">
+              <li>Our Philosophy</li>
+              <li>About Us</li>
+              <li><a href="https://nyuad.nyu.edu/en/" target="_blank"><img src="images/nyuad-icon.jpg" alt="#" width="40px" style="padding: 10px;"></a></li>
+              <li><a href="https://www.facebook.com/NYUAD/" target="_blank"><img src="images/facebook-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+              <li><a href="https://www.instagram.com/nyuabudhabi/?hl=en" target="_blank"><img src="images/instagram-icon.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+              <li><a href="https://twitter.com/NYUAbuDhabi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="images/twitter.png" alt="#" width="30px" style="padding: 10px;"></a></li>
+            </div>
 
+          </div>
 
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#"><span onclick="openSubMenu1()">Outdoors &#187;</span></a>
+            <a href="#"><span onclick="openSubMenu2()">Dining & Fitness &#187;</span></a>
+            <a href="#"><span onclick="openSubMenu3()">Study Spots &#187;</span></a>
+          </div>
+          <div id="mySidenav2" class="sidenav2">
 
+            <div id="subMenu01">
+              <a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+              <span>Welcome Center</span><br>
+              <span>Highline</span><br>
+              <span>Palms Center</span><br>
+            </div>
 
-      <span class="icon" onclick="openNav()">&#9776;</span>
+            <div id="subMenu02"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()"> &#60;</a>
+              <span>Marketplace</span><br>
+              <span>D2</span><br>
+              <span>Fitness Center</span><br>
+            </div>
 
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#"><span onclick="openSubMenu1()">Outdoors</span></a>
-        <a href="#"><span onclick="openSubMenu2()">Dining</span></a>
-        <a href="#"><span onclick="openSubMenu3()">Study Spots</span></a>
+            <div id="subMenu03"><a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">&#60;</a>
+              <span>Marketplace</span><br>
+              <span>Library</span><br>
+              <span>Library Cafe</span><br>
+            </div>
+
+          </div>
+        </div>
       </div>
-      <div class="sidenav2">
-        <a href="javascript:void(0)" class="backbtn" onclick="closeSubMenu()">
-          <div id="backbtn">&#8592;</div>
-        </a>
-        <!-- <span id="backbtn" onclick="closeSubMenu()"></span> -->
-        <div id="subMenu01" class="sidenav"><a href="#">here</a></div>
-        <div id="subMenu02" class="sidenav"><a href="#">sub menu 2</a></div>
-        <div id="subMenu03" class="sidenav"><a href="#">sub menu 3</a></div>
+      <div id="header-content">
+        <div id="header-text">
+          <h1>Welcome to NYUAD</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id temporibus perferendis necessitatibus numquam amet impedit explicabo? Debitis quasi ullam aperiam!</p>
+          <a class="mainBtn">Lets Begin!</a><a class="mainBtn">Lets Begin!</a>
+        </div>
+
       </div>
-    </div>
-  </div>
-  <div id="main">
-    <div class="video_banner"><video src="videos/30mins.mp4" autoplay loop muted id="video1"></video></div>
+    </header>
 
     <!-- Ayesha's Part end -->
 
