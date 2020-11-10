@@ -135,41 +135,37 @@ $(".audio-hider").click(function()
 /* Ayesha's part begins */
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("header-text").style.marginLeft = "250px";
+  document.getElementById("header-content").style.zIndex = 0;
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
+  document.getElementById("header-text").style.marginLeft = "0";
+  document.getElementById("header-content").style.zIndex = 5;
   document.body.style.backgroundColor = "white";
 }
 
 function openSubMenu1() {
   document.getElementById("subMenu01").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("header-text").style.marginLeft = "250px";
 };
-
 function openSubMenu2() {
   document.getElementById("subMenu02").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("header-text").style.marginLeft = "250px";
 };
 
 function openSubMenu3() {
   document.getElementById("subMenu03").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("header-text").style.marginLeft = "250px";
 };
 
 function closeSubMenu() {
   document.getElementById("subMenu01").style.width = "0";
   document.getElementById("subMenu02").style.width = "0";
   document.getElementById("subMenu03").style.width = "0";
-  document.getElementById("main").style.marginLeft = "250px";
-  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+  document.getElementById("header-text").style.marginLeft = "250px";
 };
 /* Ayesha's part ends */
 /* --------------------------------------- */
