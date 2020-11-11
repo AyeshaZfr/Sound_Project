@@ -77,6 +77,15 @@ $(".audio-hider").click(function()
     c=false;
 }
 });
+// 
+// for (int i = 0; i < 9; i++)
+// {
+//   var n = $(".location")[i].attr("id");
+//   var name_img = 'images/' + n + '-day.JPG';
+//   console.log(name_img);
+//   $(".location")[i].style.background = "url("name_img");";
+// }
+
 
 
 

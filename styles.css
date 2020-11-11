@@ -54,7 +54,7 @@ a
 }
 
 .section-header {
-  width: 20%;
+  width: 50%;
   position: relative;
   margin: auto;
   text-align: center;
@@ -119,6 +119,62 @@ a
   z-index: 25;
   border-radius: 5px;
 }
+
+#palms
+{
+  background: url("images/palms-day.JPG");
+  background-size: cover;
+}
+
+#highline
+{
+  background: url("images/highline-day.JPG");
+  background-size: cover;
+
+}
+
+#welcomecenter
+{
+  background: url("images/welcomecenter-day.JPG");
+  background-size: cover;
+
+}
+
+#marketplace
+{
+  background: url("images/marketplace-day.JPG");
+  background-size: cover;
+
+}
+
+#d2
+{
+  background: url("images/d2-day.JPG");
+  background-size: cover;
+
+}
+
+#fitness
+{
+  background: url("images/fitness-day.JPG");
+  background-size: cover;
+
+}
+
+#librarycafe
+{
+  background: url("images/librarycafe-day.JPG");
+  background-size: cover;
+
+}
+
+#library
+{
+  background: url("images/library-day.JPG");
+  background-size: cover;
+
+}
+
 
 .location:hover {
   display: block;
@@ -438,6 +494,9 @@ transform: scale(1.5);
   height: 95vh;
   width: 100%;
   margin: 0 auto;
+  margin-top: -60px;
+  z-index: -10;
+  position: absolute;
 }
 
 .textover {
