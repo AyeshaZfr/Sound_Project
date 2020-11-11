@@ -77,7 +77,7 @@ $(".audio-hider").click(function()
     c=false;
 }
 });
-// 
+//
 // for (int i = 0; i < 9; i++)
 // {
 //   var n = $(".location")[i].attr("id");
@@ -153,7 +153,7 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("header-text").style.marginLeft = "0";
   document.getElementById("header-content").style.zIndex = 5;
-  document.body.style.backgroundColor = "white";
+  // document.body.style.backgroundColor = "white";
 }
 
 function openSubMenu1() {
