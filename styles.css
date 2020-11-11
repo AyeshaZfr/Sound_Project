@@ -12,6 +12,7 @@ font-family: 'Caveat Brush', cursive;
 font-family: 'Freckle Face', cursive;
 
 
+header { border:1px black solid; }
 
 main {
   height: 100vh;
